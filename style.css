@@ -472,4 +472,32 @@ svg{
     font-size: 18px;
   }
 }
+/* ======================
+   FSAE Project Styles
+   ====================== 
+*/
 
+.project-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image within its container */
+}
+
+.project-detail {
+  margin-bottom: 20px;
+}
+
+/* Additional styling for the FSAE section if needed */
+.section-heading {
+  color: var(--color-blue); /* Example to change the heading color */
+  margin-top: 32px; /* Adjust spacing above each project heading as needed */
+}
+
+.section-text {
+  margin-top: 16px; /* Adjust spacing above each paragraph as needed */
+  color: var(--color-text); /* Ensures text color consistency */
+  line-height: 1.6; /* Adjust line-height for better readability */
+}
+
+  
